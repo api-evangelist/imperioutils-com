@@ -1,4 +1,4 @@
-# imperioutils-com
+# Imperio
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-imperioutils-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://imperioutils.com/
+Imperio provides free tax‑compliance and anti‑fraud tools for Italian accountants and SMEs. It monitors supplier VAT numbers (P.IVA) via VIES nightly, alerts on IBAN changes, validates fiscal codes, parses FatturaPA XML, and offers calculators for IVA, IMU, and other taxes. The platform includes a public API and an MCP server for AI agents, all without login, and is currently in beta with free pricing.
+
+**Areas:** Finance · Tax · Anti-fraud · API · Italy
+
+## Imperio on APIs.io
+
+Everything profiled for Imperio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/imperioutils-com/](https://apis.io/providers/imperioutils-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Imperio Demo pubblica API](https://apis.io/apis/imperioutils-com/imperioutils-com-demo-pubblica-api/) — The Demo pubblica API from Imperio — 1 operation(s) for demo pubblica.
+- [Imperio Health API](https://apis.io/apis/imperioutils-com/imperioutils-com-health-api/) — The Health API from Imperio — 3 operation(s) for health.
+- [Imperio MCP API](https://apis.io/apis/imperioutils-com/imperioutils-com-mcp-api/) — The Mcp API from Imperio — 1 operation(s) for mcp.
+- [Imperio Registry API](https://apis.io/apis/imperioutils-com/imperioutils-com-registry-api/) — The Registry API from Imperio — 2 operation(s) for registry.
+- [Imperio Tool API](https://apis.io/apis/imperioutils-com/imperioutils-com-tool-api/) — The Tool API from Imperio — 23 operation(s) for tool.
+- [Imperio Webhook Capture API](https://apis.io/apis/imperioutils-com/imperioutils-com-webhookcapture-api/) — The WebhookCapture API from Imperio — 1 operation(s) for webhookcapture.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Imperio Agentic Access](https://apis.io/agentic-access/imperioutils-com/imperioutils-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Imperio API Rules](https://apis.io/rules/imperioutils-com/imperioutils-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Imperio Authentication](https://apis.io/security/imperioutils-com/imperioutils-com-authentication/)
+- [Imperio Domain Security](https://apis.io/security/imperioutils-com/imperioutils-com-domain-security/)
+- [Imperio Vulnerability Disclosure](https://apis.io/security/imperioutils-com/imperioutils-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Imperio Plans Pricing](https://apis.io/plans/imperioutils-com/imperioutils-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://imperioutils.com/)
+- [API reference](https://imperioutils.com/docs)
+- [Pricing](https://imperioutils.com/pricing)
+- [Blog](https://imperioutils.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 44.3** — developing · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 41.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 38.9 |
+
+**Agent readiness 29.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/imperioutils-com/](https://apis.io/providers/imperioutils-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Imperio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/imperioutils-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
